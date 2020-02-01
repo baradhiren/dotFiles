@@ -100,4 +100,4 @@ alias firefox="nohup firefox &"
 alias burp="cd ~/Downloads/BurpSuite && java -Xbootclasspath/p:BurpKeygen.jar -jar burpsuite_pro_v2.0.11beta.jar &"
 
 # vscode to open current directory
-alias code="code . &"
+alias codehere="code . &"
