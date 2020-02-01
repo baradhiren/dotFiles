@@ -9,28 +9,44 @@ alias termux='ssh -p 8022 192.168.0.100'
 
 # Modify zshrc
 alias zshconfig='vim ~/.zshrc'
+
 # Always copy contents of directories (r)ecursively and explain (v) what was done
 alias cp='cp -rv'
+
 # List contents with colors for file types, (A)lmost all hidden files (without . and ..), in (C)olumns, with class indicators (F)
 alias ls='ls --color=auto -ACF'
+
 # List contents with colors for file types, (a)ll hidden entries (including . and ..), use (l)ong listing format, with class indicators (F)
 alias ll='ls --color=auto -alF'
+
+# some more ls aliases
+alias la='ls -A'
+alias l='ls -CF'
+
 # Explain (v) what was done when moving a file
 alias mv='mv -v'
+
 # Create any non-existent (p)arent directories and explain (v) what was done
 alias mkdir='mkdir -pv'
+
 # Always try to (c)ontinue getting a partially-downloaded file
 alias wget='wget -c'
+
 # Find current directory for given name
 alias fhere="find . -name "
+
 # cd using ..
 alias ..="cd .."
+
 # Search history for command
 alias histg="history | grep"
+
 # Upgrade Pip
 alias pipup="pip install --upgrade pip"
+
 # Exit
 alias e="exit"
+
 # Clear
 alias cl="clear"
 
@@ -81,5 +97,7 @@ fi
 alias firefox="nohup firefox &"
 
 # BurpSuite
-
 alias burp="cd ~/Downloads/BurpSuite && java -Xbootclasspath/p:BurpKeygen.jar -jar burpsuite_pro_v2.0.11beta.jar &"
+
+# vscode to open current directory
+alias code="code . &"

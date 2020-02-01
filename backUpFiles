@@ -1,0 +1,11 @@
+# bash
+~/.bashrc ~/Downloads/dotFiles/bash/.bashrc
+
+# vim
+~/.vimrc ~/Downloads/dotFiles/vim/.vimrc
+
+# zsh
+~/.zshrc ~/Downloads/dotFiles/zsh/.zshrc
+
+# aliases
+~/.aliases ~/Downloads/dotFiles/zsh/.aliases
