@@ -41,3 +41,8 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 # Installing fzf
 ###############################
 sudo apt-get install fzf
+
+##############################
+# neofetch
+##############################
+sudo apt-get install neofetch
