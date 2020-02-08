@@ -5,7 +5,7 @@
 ##########################################################################
 
 # Connect to your termux
-alias termux='ssh -p 8022 192.168.0.100'
+alias termux='ssh -p 8022 192.168.29.146'
 
 # Modify zshrc
 alias zshconfig='vim ~/.zshrc'
