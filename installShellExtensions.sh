@@ -23,7 +23,7 @@ sed -i -e '/ZSH_THEME/s/"\([^"]*\)"/\"powerlevel10k\/powerlevel10k\"/' ~/.zshrc
 ###############################
 # navi cheatsheet tool
 ###############################
-plugins_dir="$ZSH_CUSTOM/plugins"
+plugins_dir="/home/${whoami}/.oh-my-zsh/plugins"
 mkdir -p "$plugins_dir"
 cd "$plugins_dir"
 git clone https://github.com/denisidoro/navi
