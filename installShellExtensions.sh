@@ -16,14 +16,14 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 ###############################
 # Powerlevel10k
 ###############################
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git /home/$(whoami)/.oh-my-zsh/themes/powerlevel10k
 # Set powerlevel10k as zsh theme
 sed -i -e '/ZSH_THEME/s/"\([^"]*\)"/\"powerlevel10k\/powerlevel10k\"/' ~/.zshrc
 
 ###############################
 # navi cheatsheet tool
 ###############################
-plugins_dir="/home/${whoami}/.oh-my-zsh/plugins"
+plugins_dir="/home/$(whoami)/.oh-my-zsh/plugins"
 mkdir -p "$plugins_dir"
 cd "$plugins_dir"
 git clone https://github.com/denisidoro/navi
