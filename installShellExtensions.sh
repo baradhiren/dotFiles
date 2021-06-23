@@ -6,7 +6,7 @@
 ###############################
 # Installing zsh
 ###############################
-sudo apt install zsh
+apt install zsh
 
 ###############################
 # Installing ohmyzsh
@@ -16,22 +16,22 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 ###############################
 # Powerlevel10k
 ###############################
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git /home/$(whoami)/.oh-my-zsh/themes/powerlevel10k
+#git clone --depth=1 https://github.com/romkatv/powerlevel10k.git /home/$(whoami)/.oh-my-zsh/themes/powerlevel10k
 # Set powerlevel10k as zsh theme
-sed -i -e '/ZSH_THEME/s/"\([^"]*\)"/\"powerlevel10k\/powerlevel10k\"/' ~/.zshrc
+#sed -i -e '/ZSH_THEME/s/"\([^"]*\)"/\"powerlevel10k\/powerlevel10k\"/' ~/.zshrc
 
 ###############################
 # navi cheatsheet tool
 ###############################
-plugins_dir="/home/$(whoami)/.oh-my-zsh/plugins"
-mkdir -p "$plugins_dir"
-cd "$plugins_dir"
-git clone https://github.com/denisidoro/navi
+#plugins_dir="/home/$(whoami)/.oh-my-zsh/plugins"
+#mkdir -p "$plugins_dir"
+#cd "$plugins_dir"
+#git clone https://github.com/denisidoro/navi
 
 ###############################
 # zsh-autosuggestions
 ###############################
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+#git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 # Add navi to plugins list in zshrc
 # TODO: add sed code to manipulate plugins string
@@ -40,9 +40,9 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 ###############################
 # Installing fzf
 ###############################
-sudo apt-get install fzf
+apt-get install fzf
 
 ##############################
 # neofetch
 ##############################
-sudo apt-get install neofetch
+#sudo apt-get install neofetch
