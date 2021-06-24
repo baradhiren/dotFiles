@@ -3,7 +3,6 @@
 # This script will take backup of all given dotfiles in backUpFiles
 
 cd ${HOME}/Downloads/dotFiles/
-
 BACKUP=${HOME}/Downloads/dotFiles/backUpFiles
 
 timestamp() {
